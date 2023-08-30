@@ -6,6 +6,35 @@ Team members (edit these):
 2. Team member 2
 3. Team member 3
 
+## Before you begin...
+
+There are a few things that you should know about this lab assignment:
+
+1. It is a _pair programming_ activity. Pair programming is a software
+   development practice where two programmers sit side-by-side at the
+   same computer and work together to develop a program. One programmer
+   is the _driver_--they type and edit the code, explaining what they
+   are doing. The other programmer is the _navigator_, who should be
+   thinking about the big picture, offering advice and suggestions, and
+   __asking questions__. The members of a pair programming team should talk
+   throughout the process so that they can switch roles at any moment.
+
+2. You will be editing this file using [markdown](https://commonmark.org/help/).
+   You will write your answers in this file, and this edited file will be
+   what you submit for your lab submission. You can switch back and forth
+   between viewing and editing this file using the "preview" button in the
+   top right of this window. You don't need to worry about the syntax of
+   Markdown too much, but it's nice that it's just text and IntelliJ can
+   display it nicely formatted. Don't worry about getting everything to
+   look perfect.
+
+3. Each person on the team should have their own copy of this file, but
+   you should choose to fill in __one__ team member's markdown file.
+   When you are done with the lab, this team member should share their
+   file with the rest of the team.
+
+   You should note who you worked with at the top of this file.
+
 ## Goals
 
 By the time that you are done with this activity, you and your partner
