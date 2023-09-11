@@ -1,12 +1,14 @@
 package oop1;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Gotchas {
     public static void main(String[] args)
     {
         demoGotcha1();
+        //demoGotcha2();
         //demoGotcha3();
     }
 
@@ -44,6 +46,43 @@ public class Gotchas {
         thirdCanvas.setPenColor(Color.GREEN);
         thirdCanvas.drawFilledCircle(50, 50, 50);
         thirdCanvas.update();
+    }
+
+    public static void demoGotcha2()
+    {
+        int[] array1 = {1, 2, 3};
+        int[] array2 = {1, 2, 3};
+        int[] array3 = array1;
+
+        if(array1 == array2)
+        {
+            System.out.println("Array 1 and array 2 reference the same memory location!");
+        }
+
+        if(array3 == array2)
+        {
+            System.out.println("Array 2 and array 3 reference the same memory location!");
+        }
+
+        if(array1 == array3)
+        {
+            System.out.println("Array 1 and array 3 reference the same memory location!");
+        }
+
+        if(Arrays.equals(array1, array2))
+        {
+            System.out.println("Array 1 and array 2 contain equal values!");
+        }
+
+        if(Arrays.equals(array3, array2))
+        {
+            System.out.println("Array 2 and array 3 contain equal values!");
+        }
+
+        if(Arrays.equals(array1, array3))
+        {
+            System.out.println("Array 1 and array 3 contain equal values!");
+        }
     }
 
     public static void demoGotcha3()
