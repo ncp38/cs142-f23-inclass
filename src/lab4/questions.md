@@ -32,7 +32,7 @@ and a `Car` object called `car`, which stores the `Car` object the camera
 sees, if there is one.  The mental model you should have of a car
 is that it has access to three of these `CameraView` objects, showing
 if the front/left/right sides of the car are adjacent to a square
-of road ('*') or a square of grass ('.') and 
+of road ('*')/a square of grass ('.') and adjacent to a car.
 
 - Now, open up the Car class and go to the drive() method.  This code
 probably looks very similar to the code you wrote last week (only
