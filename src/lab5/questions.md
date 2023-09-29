@@ -1,4 +1,4 @@
-# Lab 6: Mapping Memphis
+# Lab 5: Mapping Memphis
 
 ## Group members:
 
