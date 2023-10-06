@@ -1,5 +1,12 @@
 # Lab: Self-Driving Racecars
 
+Team members (edit these):
+1. Team member 1
+1. Team member 2
+1. Team member 3...
+
+## Goals
+
 In this lab, you will modify some classes to design a 
 self-driving race car class that can navigate its way 
 around a track.
