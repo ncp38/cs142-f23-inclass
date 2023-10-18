@@ -9,7 +9,6 @@ public class Exercises {
 
     public static void main(String[] args)
     {
-        readWords();
         ArrayList<Integer> list = new ArrayList<Integer>();
         list.add(10);
         list.add(20);
@@ -22,7 +21,7 @@ public class Exercises {
         String s = "abc";
         System.out.println(reverseString(s));
 
-        //readWords();//This returns an ArrayList, but here we're just testing the functionality.
+        readWords();//This returns an ArrayList, but here we're just testing the functionality.
     }
 
     public static void reverseArrayList(ArrayList<Integer> list)
@@ -38,17 +37,22 @@ public class Exercises {
         }
     }
 
+
+
     public static String reverseString(String str)
     {
         String answer = "";
         // algorithm
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < str.length() -1; i++) {
             answer = str.charAt(i) + answer;
         }
 
         return answer;
     }
+
+
+
 
     public static ArrayList<String> readWords() {
         InputStream is = Exercises.class.getResourceAsStream("words.txt");
