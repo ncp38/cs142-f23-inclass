@@ -17,7 +17,7 @@ The stringClean function takes a string input and reduces any repeated
 adjacent letters to a single char. This function changes "yyzzza" into "yza"; 
 "hello" into "helo"; "bookkeeper" to "bokeper"; and "zzzzz" to "z".
 
-Write some code to test this function in your main method.  What words did
+Write some test cases to evaluate this function in your main method.  What words did
 you test?  Do you think this function works?
 
 __Your answer here__
