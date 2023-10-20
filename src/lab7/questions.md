@@ -55,7 +55,7 @@ between versions of Java may be significant, so this is helpful to be
 mindful of.
 
 Open up the above webpage (or a similar webpage you were able to find).
-Observe in the top-left corner of the screen (directly above Class String)-
+Observe in the top-left corner of the screen (directly above the words "Class String")-
 the include file location is written here.  This is what you'd need if you 
 wanted to include this class in your own code.  The API can be a very useful 
 resource if you ever need to look up any information about an in-built Java class.
@@ -63,7 +63,7 @@ resource if you ever need to look up any information about an in-built Java clas
 Scroll down a little to the method summary.  Written here are all the
 methods in the Java String class.  We can use these to find out what
 each of the methods used in stringClean do.  What does the charAt 
-method do?  (Hint, you can select "instance methods" to filter
+method do?  (Hint: you can select "instance methods" to filter
 what's shown to be most relevant to you.)
 
 __Your answer here__
@@ -78,8 +78,8 @@ Knowing this information, what do lines 51-54 of RecursiveFunctions.java do?
 __Your answer here__
 
 Returning now to the structure of stringClean, what is the **base case** 
-for the recursion?  And how do you know that this is the base case in t
-his code? (In otherwords, what distinguishes the base case?)
+for the recursion?  And how do you know that this is the base case in this 
+code? (In otherwords, what distinguishes the base case?)
 
 __Your answer here__
 
@@ -90,7 +90,7 @@ words, what distinguishes the recursive case?)
 __Your answer here__
 
 This is the first time you've seen a recursive function with multiple branches;
-Can you write what this program does in pseudocode?
+Can you write what this program does/how it works in pseudocode?
 
 __Your answer here__
 
@@ -208,8 +208,9 @@ How many recursive calls does this function have to have?
 __Your answer here__
 
 Now that you have determined the base case and the recursive case
-for this function, create code in the fib(int n) method of
-RecursiveFunctions.java.
+for this function, create code to find the nth item in the fibonacci 
+Sequence.  (To do this fill in the fib(int n) method of 
+RecursiveFunctions.java.)
 
 Does your code work?  Are you able to run the test function in main
 to achieve correct results (see the sequence above)?
