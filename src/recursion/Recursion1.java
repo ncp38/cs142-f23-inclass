@@ -13,12 +13,24 @@ public class Recursion1 {
 
     public static long fact(int num)
     {
-        return 0; // remove this when you start coding
+        long result = 1;
+
+        for(int k = 1; k <= num; k++)
+        {
+            result*=k;
+        }
+
+        return  result;
     }
 
     public static long factRec(int num)
     {
-        return 0; // remove this when you start coding
+        if(num == 1)
+        {
+            return 1;
+        }
+
+        return factRec(num-1) * num;
     }
 
     public static String reverse(String str)
