@@ -4,9 +4,11 @@ public class Recursion1 {
 
     public static void main(String[] args)
     {
+        long factAnswer = factRec(14);
+
         for (int i = 1; i <= 10; i++)
         {
-            long factAnswer = fact(i);
+            factAnswer = fact(i);
             System.out.println("The factorial of " + i + " is " + factAnswer);
         }
     }
