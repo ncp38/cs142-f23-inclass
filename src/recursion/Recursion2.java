@@ -6,7 +6,7 @@ public class Recursion2 {
     {
 
         weird(5);
-
+        //factRec(6);
         /*for (int i = 1; i <= 10; i++)
         {
             long factAnswer = fact(i);
@@ -84,17 +84,23 @@ public class Recursion2 {
             return;
         }
         else {
+            //System.out.println(n);
+            weird(n - 1);
             System.out.println(n);
             weird(n - 1);
-            //System.out.println(n);
-            //weird(n - 1);
         }
     }
 
     /**
      * Fibonacci sequence.
      */
-    public static int fib(int n) {
-        return 0; // remove this
+    public static int fib(int n)
+    {
+        if(n == 0)
+            return 0;
+        else if(n == 1)
+            return 1;
+        else
+            return fib(n - 1) + fib(n - 2);
     }
 }
