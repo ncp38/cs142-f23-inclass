@@ -5,7 +5,7 @@ public class Recursion2 {
     public static void main(String[] args)
     {
 
-        weird(5);
+        weird(4);
         //factRec(6);
         /*for (int i = 1; i <= 10; i++)
         {

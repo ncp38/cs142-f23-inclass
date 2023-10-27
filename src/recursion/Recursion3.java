@@ -7,7 +7,7 @@ public class Recursion3 {
     public static void main(String[] args)
     {
         // test sum of arraylist:
-        ArrayList<Integer> mylist = new ArrayList<Integer>(Arrays.asList(7, 8, 9));
+        ArrayList<Integer> mylist = new ArrayList<Integer>(Arrays.asList(2, 4, 6));
         System.out.println("Sum is " + sumOfArrayList(mylist));
 
         // test max of arraylist:
