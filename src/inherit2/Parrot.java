@@ -6,6 +6,16 @@ public class Parrot {
     private int energy;
     private Color color;
 
+    protected String[] ThingsThisParrotLikes;
+
+    protected String[] ThingsThisParrotLoathes;
+
+    /*public Parrot(String[] likes, String[] dislikes)
+    {
+        ThingsThisParrotLikes = likes;
+        ThingsThisParrotLoathes = dislikes;
+    }*/
+
     public int getEnergy() {
         return energy;
     }
@@ -39,6 +49,23 @@ public class Parrot {
     public void sleep() {
         energy++;
         System.out.println("Parrot is sleeping.");
+    }
+
+    public void whatIsMyParrotThinking()
+    {
+        if(ThingsThisParrotLikes != null && ThingsThisParrotLikes.length > 0)
+        {
+            int position = (int) (Math.random() * ThingsThisParrotLikes.length);
+
+            if (Math.random() > .6)
+            {
+                System.out.println("This parrot is thinking about " + ThingsThisParrotLikes[position] + ".");
+            }
+            else
+            {
+                System.out.println("This parrot is thinking about " + ThingsThisParrotLoathes[position] + ".");
+            }
+        }
     }
 
 }

@@ -12,11 +12,11 @@ public class ShowDog extends Dog {
     }
 
     public void dance() {
-        System.out.println(getName() + " is dancing!");  // name is protected in Dog, so we can use it here.
+        System.out.println(getName() + " is dancing!");  // getName() is public, so anyone can use it.
         // if name were private in Dog, we couldn't access it here.
 
-        // alternate way to do this:
-        // System.out.println(getName() + " is dancing!");  // getName() is public, so anyone can use it.
+        // alternate way to do this (if name was protected instead of private):
+        // System.out.println(name + " is dancing!");  // name is protected in Dog, so we can use it here.
     }
 
     public void juggle()

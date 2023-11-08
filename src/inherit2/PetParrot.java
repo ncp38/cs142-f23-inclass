@@ -3,6 +3,13 @@ package inherit2;
 public class PetParrot extends Parrot {
     private String name;
 
+    /*public PetParrot(String[] likes, String[] dislikes)
+    {
+        super(likes, dislikes);
+        int i = 1;
+        //super(likes, dislikes);
+    }*/
+
     public String getName() {
         return name;
     }
