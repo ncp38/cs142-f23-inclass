@@ -43,7 +43,7 @@ public class PolymorphismDemo {
 
         // try calling speakTwice:
         System.out.println("Calling speaktwice:");
-        //speakTwice(regularDog);
+        speakTwice(polymorphDog);
 
         // try creating a random dog:
         Dog d = createRandomDog();
@@ -98,7 +98,14 @@ public class PolymorphismDemo {
 
         for (Dog d : listOfDogs)
         {
-            stuckUpDog.chase(d);
+            if(d instanceof ShowDog)
+            {
+                stuckUpDog.chase(d);
+            }
+            else
+            {
+                System.out.println(stuckUpDog.getName() + " doesn't want to play with just regular Dogs like " + d.getName() +".");
+            }
         }
     }
 }
