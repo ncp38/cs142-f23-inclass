@@ -41,14 +41,17 @@ public class PolymorphismDemo {
         showDog.dance();
         //polymorphDog.dance();
 
+        //ShowDog a =  (ShowDog) polymorphDog;
+        //a.dance();
+
         // try calling speakTwice:
         System.out.println("Calling speaktwice:");
-        speakTwice(polymorphDog);
+        speakTwice(showDog);
 
         // try creating a random dog:
         Dog d = createRandomDog();
         System.out.println("Is this a dog or a showdog?  We don't know ahead of time:");
-        //d.speak();
+        d.speak();
         //d.dance();
     }
 
