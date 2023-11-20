@@ -6,8 +6,8 @@ public class PolymorphismDemo {
 
     public static void main(String[] args)
     {
-        testPolymorphism();
-        //dogpark();
+        //testPolymorphism();
+        dogpark();
     }
 
     public static void testPolymorphism()
@@ -41,8 +41,8 @@ public class PolymorphismDemo {
         showDog.dance();
         //polymorphDog.dance();
 
-        //ShowDog a =  (ShowDog) polymorphDog;
-        //a.dance();
+        ShowDog a =  (ShowDog) polymorphDog;
+        a.dance();
 
         // try calling speakTwice:
         System.out.println("Calling speaktwice:");

@@ -15,7 +15,7 @@ public class MyPets {
         {
             System.out.println(p);
             // I want p to speak!
-
+            p.speak();
         }
     }
 }
