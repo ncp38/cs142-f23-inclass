@@ -7,5 +7,10 @@ public class ShapeDemo {
         Square sq = new Square(4);
         Triangle tri = new Triangle(3, 5);
         ArrayList<Shape> shapes = new ArrayList<Shape>();
+
+        shapes.add(sq);
+        shapes.add(tri);
+
+        shapes.get(0).getPerimeter();
     }
 }
