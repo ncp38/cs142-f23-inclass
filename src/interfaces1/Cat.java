@@ -1,6 +1,6 @@
 package interfaces1;
 
-public class Cat extends Pet
+public class Cat extends Pet implements Drawable
 {
     public Cat(String newName, int newAge) {
         super(newName, newAge);

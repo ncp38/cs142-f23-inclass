@@ -1,6 +1,6 @@
 package interfaces1;
 
-public class ShowDog extends Dog {
+public class ShowDog extends Dog {//Note that this class does not itself implement Drawable; instead, it inherits that connection from its parent class.
     private int numTrophies;
 
     public ShowDog(String newName, int newAge) {

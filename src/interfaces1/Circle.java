@@ -2,7 +2,7 @@ package interfaces1;
 
 import java.awt.*;
 
-public class Circle extends Shape {
+public class Circle extends Shape implements Drawable {
     private int radius;
 
     public Circle(int newRadius, Color c) {

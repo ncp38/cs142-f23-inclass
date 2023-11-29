@@ -2,7 +2,7 @@ package interfaces1;
 
 import java.awt.*;
 
-public class Square extends Shape {
+public class Square extends Shape implements Drawable {
     private int sideLength;
 
     public Square(int newSideLength, Color c) {
